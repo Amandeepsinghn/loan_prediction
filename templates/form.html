@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Prediction Form</title>
+</head>
+<body>
+    <h1>Loan Prediction Form</h1>
+    <form method="POST" action="/predict">
+        <label for="rate_of_interest">Rate of Interest:</label>
+        <input type="number" name="rate_of_interest" required><br><br>
+
+        <label for="Interest_rate_spread">Interest Rate Spread:</label>
+        <input type="number" name="Interest_rate_spread" required><br><br>
+
+        <label for="Upfront_charges">Upfront Charges:</label>
+        <input type="number" name="Upfront_charges" required><br><br>
+
+        <label for="property_value">Property Value:</label>
+        <input type="number" name="property_value" required><br><br>
+
+        <label for="LTV">Loan to Value (LTV):</label>
+        <input type="number" name="LTV" required><br><br>
+
+        <label for="credit_type">Credit Type:</label>
+        <select name="credit_type" required>
+            <option value="EXP">EXP</option>
+            <option value="EQUI">EQUI</option>
+            <option value="CRIF">CRIF</option>
+            <option value="CIB">CIB</option>
+        </select><br><br>
+
+        <label for="dtir1">DTI Ratio:</label>
+        <input type="number" name="dtir1" required><br><br>
+
+        <input type="submit" value="Predict">
+    </form>
+
+    <div class="result">
+        {{final_result}}
+
+
+    </div>
+
+
+
+</body>
+</html>
