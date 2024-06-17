@@ -1,6 +1,12 @@
 # Loan prediction 
 
 
+https://github.com/Amandeepsinghn/loan_prediction/assets/137553469/741a825d-4369-4bb6-bbc1-7a3dc4919737
+
+
+
+
+
 
 
 
