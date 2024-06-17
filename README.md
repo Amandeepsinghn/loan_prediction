@@ -13,8 +13,7 @@
 5) Model Evaluation 
 6) Hyperparameter Tuning 
 7) App.py 
-8) CICD Pipeline 
-9) Deployment
+
 
 
 
